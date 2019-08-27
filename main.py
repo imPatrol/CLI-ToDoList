@@ -54,7 +54,7 @@ def main():
         print("\n")
         
         #.strip() strips away whitespaces, .lower() makes it lowercase
-        prompt = input("Menu> ").strip().lower()
+        prompt = input("> ").strip().lower()
         
         #If user input from prompt is in exits (List at the first line of this function) it will quit the program
         if prompt in exits:
