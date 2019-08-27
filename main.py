@@ -53,7 +53,7 @@ def main():
         cmds()
         
         #.strip() strips away whitespaces, .lower() makes it lowercase
-        prompt = input("> ").strip().lower()
+        prompt = input("Menu> ").strip().lower()
         
         #If user input from prompt is in exits (List at the first line of this function) it will quit the program
         if prompt in exits:
@@ -71,7 +71,7 @@ def main():
 #Commands to print
 def cmds():
     
-    print("\nCommands: ")
+    print("\nMenu: ")
     print("add <task>")
     print("del <ID (task number)>")
     print("exit (q, exit, done)")
