@@ -51,6 +51,7 @@ def main():
             print("{}. {}".format(index, todo))
 
         cmds()
+        print("\n")
         
         #.strip() strips away whitespaces, .lower() makes it lowercase
         prompt = input("Menu> ").strip().lower()
